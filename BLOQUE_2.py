@@ -35,5 +35,5 @@ class Circulo(Figura):
 figuras= [Cuadrado(6), Triangulo(3,6), Circulo(3)]
 
 for f in figuras:
-    print(f.area())
+    print(f"El area de la figura es:{f.area()}")
     
