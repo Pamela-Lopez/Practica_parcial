@@ -41,7 +41,7 @@ class CuentaBancaria:
         if monto > self._saldo:
             return "Saldo insuficiente,ingrese otro monto"
         else:
-             self._saldo - monto
+             self._saldo -= monto
              return f"¡Operacion exitosa!. Su saldo actual es: ${self._saldo}"
     
     def consultar_saldo(self):
