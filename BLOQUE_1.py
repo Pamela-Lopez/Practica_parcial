@@ -31,7 +31,7 @@ class CuentaBancaria:
 
     def __init__(self,titular,saldo):
         self.titular = titular
-        self._saldo = saldo    #Se usa el pilar de POO encapsulamiento
+        self._saldo = saldo    #Se usa el pilar de POO encapsulamiento,se asigna un atributo protegido
 
     def depositar(self,monto):
         self._saldo += monto
